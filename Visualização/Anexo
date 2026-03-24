@@ -1,0 +1,12 @@
+        <div class="card">
+            <img src="Largatixa.jpg" alt="Descrição" class="card-img">
+            <div class="card-content">
+              <h2>Descrição</h2>
+            <p> A lagartixa é um pequeno réptil muito <br>comum em casas e jardins. 
+                Ela<br>se alimenta principalmente de <br>insetos, como mosquitos e baratas, 
+                <br>ajudando a controlar essas pragas. <br>Apesar de muitas pessoas terem medo, 
+                <br>a lagartixa é inofensiva para os <br>seres humanos e não transmite doenças.
+            </p>
+              <a href="#" class="card-button">Saiba mais</a>
+            </div>
+          </div>
