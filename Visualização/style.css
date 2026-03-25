@@ -1,42 +1,128 @@
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
-  background: #747a88;
-  color: rgb(255, 255, 255);
+  font-family: Arial;
+  background: #f8fafc;
 }
 
-header {
-  background: #020617;
-  padding: 15px;
+/* HEADER */
+.header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  padding: 15px 40px;
+  background: #f1f5f9;
+}
+
+.logo {
+  display: flex;
+  gap: 10px;
+}
+
+.logo p {
+  margin: 0;
+  font-size: 12px;
 }
 
 nav a {
-  color: #38bdf8;
-  margin-left: 15px;
+  margin-left: 20px;
   text-decoration: none;
+  color: #334155;
 }
 
+.ativo {
+  background: #dbeafe;
+  padding: 8px 15px;
+  border-radius: 10px;
+}
+
+/* HERO */
 .hero {
+  background: linear-gradient(135deg, #1d4ed8, #0ea5e9);
+  color: white;
+  padding: 80px 40px;
+}
+
+.tag {
+  background: rgba(255,255,255,0.2);
+  padding: 8px 15px;
+  border-radius: 20px;
+}
+
+.hero h1 {
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+.botoes {
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 12px 20px;
+  margin-right: 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.branco {
+  background: white;
+}
+
+.azul {
+  background: #3b82f6;
+  color: white;
+}
+
+/* IMAGEM */
+.imagem img {
+  width: 100%;
+  border-radius: 20px;
+  margin-top: -40px;
+}
+
+/* PROBLEMA E SOLUÇÃO */
+.problema-solucao {
+  display: flex;
+  gap: 20px;
+  padding: 40px;
+}
+
+.card {
+  flex: 1;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.problema {
+  background: #fee2e2;
+}
+
+.solucao {
+  background: #dcfce7;
+}
+
+/* CARDS */
+.cards {
   text-align: center;
-  padding: 100px 20px;
+  padding: 40px;
 }
 
-.hero h2 {
-  font-size: 2.5em;
+.grid {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
 }
 
-.hero p {
-  margin: 20px 0;
+.item {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  flex: 1;
 }
 
-.botoes a {
-  background: #38bdf8;
-  color: black;
-  padding: 10px 20px;
-  margin: 10px;
-  text-decoration: none;
-  border-radius: 5px;
+/* ODS */
+.ods {
+  background: linear-gradient(135deg, #7c3aed, #9333ea);
+  color: white;
+  padding: 60px 40px;
 }
